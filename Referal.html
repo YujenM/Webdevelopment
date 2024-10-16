@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-    <section class="Navbar ">
+    <section class="Navbar">
         <nav class="navbar fixed  navbar-expand-lg navbar-dark custom-navbar">
             <a class="sitelogo " href="./index.html">Uni Health</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse justify-content-end hover" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-5"></ul>
                 <div class="assesment mr-2">
-                    <a href="./assesment.html">Take Assesment</a>
+                    <a href="./Assement.html">Take Assesment</a>
                 </div>
                 <div class="assesment mr-2">
                     <a href="./login.html">Login/Signup</a>
@@ -32,95 +32,96 @@
             </div>    
         </nav>
     </section>
+
     <section id="referal">
         <div class="referalheading mt-2">
             <h2 class="text-center">Patient Referral Portal</h2>
             <p class="text-center"> Complete the form below to submit your referral</p>
         </div>
         <div class="container">
-            <
             <div class="referalbg">
                 <h2 class="pt-4 text-center">Patient Information</h2>
                 <form class="ml-4">
                     <div class="row">
                         <div class="col-md-4">
                             <label class="formlabel">First Name</label><br>
-                            <input type="text" class="forminput" placeholder="Enter Patient Name">
+                            <input type="text" required class="forminput" placeholder="Enter First Name">
                         </div>
                         <div class="col-md-4">
                             <label class="formlabel">Last Name</label><br>
-                            <input type="text" class="forminput" placeholder="Enter Patient Name">
+                            <input type="text" required class="forminput" placeholder="Enter Last Name">
                         </div>
                         <div class="col-md-4">
                             <label class="formlabel">Date OF BIRTH</label><br>
-                            <input type="date" class="forminput" placeholder="Enter Patient Name">
+                            <input type="date" required class="forminput">
                         </div>
                         <div class="col-md-4 mt-2">
                             <label class="formlabel">Phone Number</label><br>
-                            <input type="number" class="forminput" placeholder="Enter Phone Number">
+                            <input type="number" required class="forminput" placeholder="Enter Phone Number">
                         </div>
                         <div class="col-md-4 mt-2">
                             <label class="formlabel">Email</label><br>
-                            <input type="email" class="forminput" placeholder="@gmail.com">
+                            <input type="email" required class="forminput" placeholder="@gmail.com">
                         </div>
                         <div class="col-md-6 mt-2">
-                            <label class="formlabel">Message</label><br>
+                            <label class="formlabel">Message (optional)</label><br>
                             <textarea type="" class="forminputmsg" name="comment">Enter text here...</textarea>
                         </div>
                     </div>
                 </form>
+
                 <h2 class="pt-4 text-center mt-2">Provider Information</h2>
                 <form class="ml-4">
                     <div class="row">
                         <div class="col-md-4">
                             <label class="formlabel">First Name</label><br>
-                            <input type="text" class="forminput" placeholder="Enter Patient Name">
+                            <input type="text" required class="forminput" placeholder="Enter Patient Name">
                         </div>
                         <div class="col-md-4">
                             <label class="formlabel">Last Name</label><br>
-                            <input type="text" class="forminput" placeholder="Enter Patient Name">
+                            <input type="text" required class="forminput" placeholder="Enter Patient Name">
                         </div>
                         <div class="col-md-4">
-                            <label class="formlabel">Organization</label><br>
+                            <label class="formlabel">Organization (optional)</label><br>
                             <input type="text" class="forminput" placeholder="Enter Patient Name">
                         </div>
                         <div class="col-md-4 mt-2">
                             <label class="formlabel">Phone Number</label><br>
-                            <input type="number" class="forminput" placeholder="Enter Phone Number">
-                        </div>
+                            <input type="number" required class="forminput" placeholder="Enter Phone Number">
+                        </div> 
                         <div class="col-md-4 mt-2">
                             <label class="formlabel">Email</label><br>
-                            <input type="email" class="forminput" placeholder="@gmail.com">
-                        </div>
-                        <div class="col-md-6 mt-2">
-                            <label class="formlabel">Message</label><br>
-                            <textarea type="" class="forminputmsg" name="comment">Enter text here...</textarea>
+                            <input type="email" required class="forminput" placeholder="@gmail.com">
                         </div>
                     </div>
                 </form>
+                
+                <!-- Submit Button Fixed -->
                 <div class="text-center mt-4">
-                    <button class="referalbtn">Submit</button>
+                    <button type="submit" class="referalbtn">Submit</button>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="contact">
-        <div class="contacthead  ">
-            <div class=" w-full">
-                <div class="d-flex justify-content-around ">
-                    <p>CaLL+9777212</p>
-                    <p>Address: New Your</p>
+        <div class="contacthead">
+            <div class="w-full">
+                <div class="d-flex justify-content-around">
+                    <p>Call: +9777212</p>
+                    <p>Address: New York</p>
                     <p>SMS: +23232</p>
                 </div>
+            </div>
         </div>
-        </div>
-
     </section>  
-    <section id="footer ">
+
+    <section id="footer">
         <div class="footermain">
-            <p>@copyright Yujen Maharjan</p>
+            <p>&copy; Yujen Maharjan</p>
         </div>
     </section>
+
     <script type="module" src="./jsfiles/blog.js"></script>
     <script type="module" src="./jsfiles/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

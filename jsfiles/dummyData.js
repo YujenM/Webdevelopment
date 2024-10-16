@@ -19,6 +19,7 @@ export const navbarlinkinfo=[
         "name":"ReferPatient",
         "link":"./Referal.html"     
     }
+    
 ]
 
 export const offerlinkinfo=[
