@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Navbar.css">
+    <link rel="stylesheet" href="./CSS/Faq.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/ecd1889ea0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="Navbar ">
+        <nav class="navbar fixed  navbar-expand-lg navbar-dark custom-navbar">
+            <a class="sitelogo " href="./index.html">Uni Health</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color:#2E4985;"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end hover" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-5"></ul>
+                <div class="assesment mr-2">
+                    <a href="./assesment.html">Take Assesment</a>
+                </div>
+                <div class="assesment mr-2">
+                    <a href="./login.html">Login/Signup</a>
+                </div>
+            </div>    
+        </nav>
+    </section>
+    <section id="FAQ">
+        <div class="container mt-4">
+            <h2 class="text-center Faqtitle">Frequently Asked Questions</h2>
+            <p></p>
+            <div id="accordion">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <span class="Faqquestion">What is mental health? <i class="fa-solid fa-chevron-down "></i></span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Mental health refers to a person's emotional, psychological, and social well-being. It influences how we think, feel, and act in daily life. It also affects how we handle stress, relate to others, and make decisions. Good mental health is essential for overall well-being.
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="Faqquestion">What are common signs of mental health issues? <i class="fa-solid fa-chevron-down "></i></span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Common signs include persistent sadness or irritability, withdrawal from friends and family, changes in eating or sleeping patterns, excessive worry or fear, lack of energy, and difficulty concentrating. Physical symptoms, such as headaches or stomach aches, can also be linked to mental health problems.
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="Faqquestion">What causes mental health disorders? <i class="fa-solid fa-chevron-down "></i></span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Mental health disorders can result from a combination of factors including genetic predisposition, brain chemistry, trauma, and life experiences. Stress, substance abuse, and environmental factors may also contribute to the development of mental health issues.
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <span class="Faqquestion">How can I support someone struggling with mental health? <i class="fa-solid fa-chevron-down "></i></span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Listen without judgment, offer emotional support, and encourage them to seek professional help. Let them know they’re not alone, and be patient. You can also assist them in finding resources, like therapy or support groups, but avoid pushing them into anything they’re not ready for.
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <span class="Faqquestion">When should I seek professional help for mental health?<i class="fa-solid fa-chevron-down "></i></span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            Seek professional help if you or someone you know is experiencing persistent symptoms that interfere with daily life, such as overwhelming feelings of sadness, anxiety, or anger, difficulty functioning in work or social settings, or thoughts of self-harm. Reaching out to a mental health professional early can lead to better outcomes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <script type="module" src="./jsfiles/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>

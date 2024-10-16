@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Urbanist", serif;
+    
+}
+
+:root {
+    --primary-color: #ACE2E4;
+    --darkshadesofprimarycolor: #89b4b6;
+    --secondary-bg: #eef9f9;
+    --primary-text-color: #2E4985;
+    --secondary-text-color: #707278;
+    --darkprimary-text-color: #20335d;
+    --additionalcolor: #e2e4ac;
+    --heading-h1-font-size: 2.75rem;
+    --heading-h2-font-size: 2rem;
+    --heading-h3-font-size: 1.5rem;
+    --heading-h4-font-size: 1.125rem;
+    --heading-h5-font-size: 1rem;
+}
+
+.Faqtitle{
+    font-size: var(--heading-h2-font-size);
+    color: var(--primary-text-color);
+}
+.Faqquestion{
+    font-size: var(--heading-h3-font-size);
+    color: var(--secondary-text-color);
+}
+
+.Faqquestion span{
+    display: flex;
+    justify-content: space-between;
+}

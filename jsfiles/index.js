@@ -1,87 +1,8 @@
 // Navbar
-const navbarlinkinfo=[
-    {
-        "name":"Getting Started",
-        "link":"index.html"
-    },
-    {
-        "name":"Learn More",
-        "link":"#"
-    },
-    {
-        "name":"FAQ",
-        "link":"#"
-    },
-    {
-        "name":"Blogs",
-        "link":"#"
-    },
-    {
-        "name":"ReferPatient",
-        "link":"#"     
-    }
-]
-
-const offerlinkinfo=[
-    {
-        "title": "Results-Based Care, Tailored for You",
-        "description": "Our expert providers will create a plan based on your unique needs and data, providing support from start to finish. Choose between psychiatry, therapy, or both."
-    },
-    {
-        "title": "Personalized Psychiatry",
-        "description": "When medication is needed, our psychiatric providers act quickly—analyzing over 100 data points to identify the most effective and tolerable treatment options tailored for you."
-    },
-    {
-        "title": "Clinically-Proven Therapy",
-        "description": "Our virtual program integrates cognitive and behavioral therapy with independent skill practice, all proven effective for a wide range of symptoms, helping you improve and maintain your mental health."
-    },
-    {
-        "title": "Crisis Care",
-        "description": "Introducing a groundbreaking program for individuals at elevated risk of suicide, Crisis Care follows the Collaborative Assessment and Management of Suicidality (CAMS) framework—a care model supported by over 30 years of research."
-    }
-]
-const work = [
-    {
-        "title": "1:1 Video Calling Session",
-        "description": "Connect directly with a licensed mental health professional for personalized support through private video sessions. Share your concerns in a safe, confidential environment tailored to your specific needs."
-    },
-    {
-        "title": "Group Therapy Sessions",
-        "description": "Join a supportive community in our group therapy sessions, where you can share your experiences and receive guidance alongside others facing similar challenges. These sessions foster a sense of belonging and mutual understanding."
-    },
-    {
-        "title": "Mindfulness and Meditation Workshops",
-        "description": "Attend virtual mindfulness and meditation workshops designed to help you manage stress, anxiety, and improve overall well-being. Learn techniques that promote relaxation and emotional balance."
-    }
-];
-
-const user=[
-    {
-        "name":"John Doe",
-        "description":"Pehle me bhaut gareeb tha ab me bhaut ameer hu",
-    },
-    {
-        "name":"John Doe",
-        "description":"Pehle me bhaut gareeb tha ab me bhaut ameer hu",
-    },
-    {
-        "name":"John Doe",
-        "description":"Pehle me bhaut gareeb tha ab me bhaut ameer hu",
-    },
-    {
-        "name":"John Doe",
-        "description":"Pehle me bhaut gareeb tha ab me bhaut ameer hu",
-    },
-    {
-        "name":"John Doe",
-        "description":"Pehle me bhaut gareeb tha ab me bhaut ameer hu",
-    },
-    {
-        "name":"John Doe",
-        "description":"Pehle me bhaut gareeb tha ab me bhaut ameer hu",
-    },
-]
-
+import {navbarlinkinfo} from './dummyData.js';
+import {offerlinkinfo} from './dummyData.js';
+import {work} from './dummyData.js';
+import {user} from './dummyData.js';
 function createNavbar() {
     const navbarContainer = document.querySelector('.navbar-nav');
     navbarContainer.innerHTML = '';
@@ -193,10 +114,14 @@ function createUserCards() {
 
     user.forEach(item => {
         const card = document.createElement('div');
-        card.className = 'card'; 
+        card.className = 'card';
 
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
+
+        const quotes = document.createElement('span');
+        quotes.className = 'quotes';
+        quotes.innerHTML = '<i class="fa-solid fa-quote-left fa-2xl"></i>';
 
         const userName = document.createElement('h5');
         userName.className = 'card-title';
@@ -206,15 +131,14 @@ function createUserCards() {
         userDescription.className = 'card-text';
         userDescription.textContent = item.description;
 
+        cardBody.appendChild(quotes);
         cardBody.appendChild(userName);
         cardBody.appendChild(userDescription);
+
         card.appendChild(cardBody);
         projectsContainer.appendChild(card);
     });
 }
-
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
     createNavbar();

@@ -25,100 +25,7 @@ body {
     --heading-h4-font-size: 1.125rem;
     --heading-h5-font-size: 1rem;
 }
-.Navbar{
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
-.custom-navbar{
-    background-color: var(--primary-color); /* Navbar background */
-    transition: background-color 0.3s ease; /* Smooth transition on scroll */
-}
-
-.navbar .sitelogo {
-    color: var(--primary-text-color);
-    text-decoration: none;
-    font-size: var(--heading-h2-font-size);
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    text-decoration: none;
-}
-
-.navbar-nav .nav-link {
-    color: var(--primary-text-color) !important;
-    font-size: var(--heading-h4-font-size);
-}
-
-.navbar-nav .nav-link:hover {
-    text-decoration: underline;
-}
-.assesment{
-    background-color: var(--primary-text-color);
-    width: 10vw;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1% 0;
-    border-radius: 25px;
-    
-}
-.assesment a{
-    text-decoration: none;
-    color: var(--secondary-bg);
-}
-.assesment a:hover{
-    text-decoration: none;
-    color: var(--secondary-bg);
-}
-.assesment:hover{
-    background-color: var(--darkprimary-text-color);
-    text-decoration: none;
-}
-
-@media (max-width:1300px){
-    .assesment{
-        width:12vw;
-    }
-}
-@media (max-width: 1000px) {
-    .navbar .sitelogo {
-        font-size: 1.5rem;
-    }
-    
-    .navbar-nav .nav-link {
-        font-size: 1rem;
-        padding: 10px;
-    }
-    .assesment{
-        width: 50%;
-        padding: auto;
-    }
-}
-
-@media (max-width: 400px) {
-    .navbar .sitelogo {
-        font-size: 1.25rem;
-    }
-
-    .navbar-nav {
-        flex-direction: column;
-    }
-
-    .navbar-nav .nav-link {
-        font-size: 0.875rem;
-        padding: 8px 0;
-    }
-    .assesment{
-        width: 90%;
-        padding: auto;
-    }
-    
-}
 
 /* hero section */
 
@@ -324,6 +231,9 @@ body {
     color: var(--primary-color);
 
 }
+.quotes{
+    margin-bottom: 5%;
+}
 
 
 /* plans */
@@ -359,6 +269,9 @@ body {
     padding-top: 1%;
     margin-top: 5%;
 
+}
+.planheading{
+    font-size: var(--heading-h5-font-size);
 }
 
 /* footer */
