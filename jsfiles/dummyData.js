@@ -27,14 +27,6 @@ export const offerlinkinfo=[
         "title": "Results-Based Care, Tailored for You",
         "description": "Our expert providers will create a plan based on your unique needs and data, providing support from start to finish. Choose between psychiatry, therapy, or both."
     },
-    {
-        "title":"Aadarsha Shrestha",
-        "description":"We have no enemies in the world, only teachers. We are all here to teach each other something."
-    },
-    {
-        "title":"Yujen Maharjan",
-        "description":"I am Batman."
-    },
 
     {
         "title": "Personalized Psychiatry",
@@ -71,6 +63,15 @@ export const user=[
         "name": "John Doe",
         "description": "I've overcome my financial struggles and found stability."
     },
+    {
+        "name":"Aadarsha Shrestha",
+        "description":"We have no enemies in the world, only teachers. We are all here to teach each other something."
+    },
+    {
+        "name":"Yujen Maharjan",
+        "description":"I am Batman."
+    },
+
     {
         "name": "Anonymous",
         "description": "I struggled with anxiety, but now I’m learning to manage it daily."
