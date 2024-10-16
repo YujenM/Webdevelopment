@@ -28,6 +28,15 @@ export const offerlinkinfo=[
         "description": "Our expert providers will create a plan based on your unique needs and data, providing support from start to finish. Choose between psychiatry, therapy, or both."
     },
     {
+        "title":"Aadarsha Shrestha",
+        "description":"We have no enemies in the world, only teachers. We are all here to teach each other something."
+    },
+    {
+        "title":"Yujen Maharjan",
+        "description":"I am Batman."
+    },
+
+    {
         "title": "Personalized Psychiatry",
         "description": "When medication is needed, our psychiatric providers act quickly—analyzing over 100 data points to identify the most effective and tolerable treatment options tailored for you."
     },
