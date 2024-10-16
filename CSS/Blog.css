@@ -8,8 +8,8 @@
 
 body {
     font-family: "Urbanist", serif;
-    
 }
+
 :root {
     --primary-color: #ACE2E4;
     --darkshadesofprimarycolor: #89b4b6;
@@ -24,25 +24,29 @@ body {
     --heading-h4-font-size: 1.125rem;
     --heading-h5-font-size: 1rem;
 }
-.blogtitle{
+
+.blogtitle {
     font-size: var(--heading-h2-font-size);
     color: var(--primary-text-color);
-
+    margin-bottom: 20px;
 }
 
 .blogpoption {
     display: inline-block;
     border: 2px solid var(--darkprimary-text-color);
-    border-radius: 25px;
-    padding: 10px 20px;
-    margin: 10px;
+    border-radius: 15px; /* Reduced the border-radius */
+    padding: 8px 15px; /* Reduced padding for a more compact size */
+    margin: 8px; /* Reduced margin */
     background-color: #fff;
     color: var(--primary-text-color);
-    font-size: 1rem;
+    font-size: 0.9rem; /* Reduced font-size */
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
+    flex: 1 1 30%; /* Adjusted flex size to occupy smaller space */
+    min-width: 160px; /* Reduced the minimum width */
 }
+
 .blogpoption:hover {
     background-color: var(--primary-color);
 }
@@ -52,58 +56,27 @@ body {
     font-weight: 500;
 }
 
-
-
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-
-/*  */
-
-.card {
-    height: 80%;
-    flex: 1 1 30%;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.3s;
-    max-width: 300px;
-}
-
-.card-img-top {
-    height: 50%;
-    object-fit: cover;
-}
-
-.card-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 @media (max-width: 992px) {
-    .card {
-        flex: 1 1 45%;
+    .blogpoption {
+        flex: 1 1 40%; /* Adjusted flex for medium screens */
+        min-width: 150px;
     }
 }
 
 @media (max-width: 576px) {
-    .card {
-        flex: 1 1 100%;
-        height: auto;
+    .blogpoption {
+        flex: 1 1 100%; /* Full width on smaller screens */
+        min-width: 100%;
     }
 
-    .card-title {
-        font-size: 1.1rem;
-    }
-
-    .card-text {
-        font-size: 0.85rem;
+    .blogpoption h4 {
+        font-size: 1rem; /* Slightly increased for better visibility */
     }
 }
 
