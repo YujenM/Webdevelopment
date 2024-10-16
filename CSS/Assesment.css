@@ -79,6 +79,7 @@ h1 {
     justify-content: center;
 }
 
+
 .radio-group {
     display: flex;
     flex-direction: column;
@@ -123,5 +124,19 @@ h1 {
 
     .question-title {
         font-size: var(--heading-h4-font-size);
+    }
+    .form-group input{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-group input{
+        width: 90% ;
+    }
+    .submit-btn{
+
+        width: 90%;
+        margin: 0 0;
     }
 }
