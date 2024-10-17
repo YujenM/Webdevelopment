@@ -4,10 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: "Urbanist", serif;
-    
-}
+
 :root {
     --primary-color: #ACE2E4;
     --darkshadesofprimarycolor: #89b4b6;
@@ -23,6 +20,11 @@ body {
     --heading-h3-font-size: 1.5rem;
     --heading-h4-font-size: 1.125rem;
     --heading-h5-font-size: 1rem;
+}
+body {
+    font-family: "Urbanist", serif;
+    background-color: var(--secondary-bg) !important;
+    
 }
 
 .learnmoremain{
@@ -136,7 +138,14 @@ body {
         max-width: 100%;
     }
 }
-
+@media (max-width:500px){
+    .learnhelp{
+        width: 60vw;
+    }
+    .learnmore{
+        width: 30vw;
+    }
+}
 /*  */
 .contacthead{
     background-color: var(--secondary-bg);

@@ -25,10 +25,21 @@
 body {
     font-family: "Urbanist", serif;
     color: var(--primary-text-color);
-    /* background-color: var(--backgroundcolor); */
     
     background-color: var(--backgroundcolor) !important;
     
+}
+
+.assesmanettitle h1{
+    font-size: var(--heading-h1-font-size);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--darkprimary-text-color);
+}
+.assesmanettitle p {
+    font-size: var(--heading-h3-font-size);
+    text-align: center;
+    color: var(--darkprimary-text-color);
 }
 
 
@@ -130,7 +141,7 @@ h1 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .form-group input{
         width: 90% ;
     }
@@ -138,5 +149,11 @@ h1 {
 
         width: 90%;
         margin: 0 0;
+    }
+    .assesmanettitle h1{
+        font-size: var(--heading-h2-font-size);
+    }
+    .assesmanettitle p {
+        font-size: var(--heading-h4-font-size);
     }
 }

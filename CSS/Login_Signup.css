@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --primary-color: #ACE2E4;
+    --darkshadesofprimarycolor: #89b4b6;
+    --secondary-bg: #eef9f9;
+    --primary-text-color: #2E4985;
+    --secondary-text-color: #707278;
+    --darkprimary-text-color: #20335d;
+    --additionalcolor: #e2e4ac;
+    --heading-h1-font-size: 2.75rem;
+    --heading-h2-font-size: 2rem;
+    --heading-h3-font-size: 1.5rem;
+    --heading-h4-font-size: 1.125rem;
+    --heading-h5-font-size: 1rem;
+}
+
+body {
+    font-family: "Urbanist", serif;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.loginhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginmain {
+    width: 60vw;
+    height: 60vh;
+    max-width: 70vw;
+    margin: 0 auto;
+    /* padding: 20px; */
+    background-color: var(--darkprimary-text-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.unihealth {
+    background-color: var(--secondary-bg);
+    color: var(--primary-text-color);
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.imageslogan{
+    margin: 0 5%;
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan p{
+    width: 70%;
+    font-size: var(--heading-h3-font-size);
+}
+
+@media (max-width:768px){
+    .mediumscreen{
+        display: none;
+    }
+}
+
+
+.formpage h1{
+    font-size: var(--heading-h1-font-size);
+    color: var(--darkshadesofprimarycolor);
+    text-align: center;
+    padding: 20px 0;
+}
+.userlabel{
+    font-size: var(--heading-h3-font-size);
+    color: var(--darkshadesofprimarycolor);
+    margin: 2% 5%;
+
+    
+}
+.userinput{
+    margin: 0 5%;
+    width: 80%;
+    height: 5vh;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.password-container {
+    position: relative;
+    width: 80%;
+
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+    height: 5vh;
+    border-radius: 20px;
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--darkshadesofprimarycolor);
+}
+
+.LSbutton{
+    width: 40%;
+    height: 5vh;
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+    border-radius: 20px;
+}
+.gols p{
+    text-align: center;
+    font-size: var(--heading-h4-font-size);
+    color: var(--darkshadesofprimarycolor);
+
+}
+@media(max-width:900px){
+    .loginmain{
+        width: 90vw;
+    }
+    .userlabel{
+        font-size: var(--heading-h4-font-size);
+    }
+    .password-container{
+        width: 100%;
+    }
+    .userinput{
+        width: 100%;
+        /* background-color: red; */
+    }
+}
+
+@media (max-width:768px){
+    .formpage h1{
+        font-size: var(--heading-h2-font-size);
+    }
+    .password-container{
+        width: 90%;
+    }
+    .userinput{
+        width: 90%;
+    }
+
+}

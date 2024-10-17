@@ -8,6 +8,7 @@
 
 body {
     font-family: "Urbanist", serif;
+    background-color: var(--secondary-bg);
     
 }
 
@@ -96,7 +97,7 @@ body {
         width: 50%;
     }
 }
-@media (max-width:400px){
+@media (max-width:500px){
     .herotext h1{
         font-size: 1.5rem;
     }
@@ -212,6 +213,23 @@ body {
         padding-bottom: 4%;
     }
 }
+@media (max-width:500px){
+    .work-container h2{
+        font-size: var(--heading-h4-font-size);
+    }
+    .work-container h{
+        font-size: var(--heading-h5-font-size);
+    }
+    .card h3{
+        font-size: var(--heading-h3-font-size);
+    }
+    .resulthead h4{
+        font-size: var(--heading-h4-font-size);
+    }
+    .work-container{
+        width:95%;
+    }
+}
 
 /* resuls */
 .title {
@@ -233,6 +251,11 @@ body {
 }
 .quotes{
     margin-bottom: 5%;
+}
+@media(max-width:500px){
+    .clientcard .card{
+        height: 30vh;
+    }
 }
 
 

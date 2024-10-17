@@ -6,14 +6,11 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Urbanist", serif;
-    
-}
+
 
 :root {
     --primary-color: #ACE2E4;
-    --darkshadesofprimarycolor: #89b4b6;
+    --darkshadesofprimarycolor:#87aac8;
     --secondary-bg: #eef9f9;
     --primary-text-color: #2E4985;
     --secondary-text-color: #707278;
@@ -25,14 +22,23 @@ body {
     --heading-h4-font-size: 1.125rem;
     --heading-h5-font-size: 1rem;
 }
+body {
+    font-family: "Urbanist", serif;
+    background-color: var(--secondary-bg)!important;
+    
+}
 
 .Faqtitle{
     font-size: var(--heading-h2-font-size);
     color: var(--primary-text-color);
 }
-.Faqquestion{
+.Faqdescription{
     font-size: var(--heading-h3-font-size);
     color: var(--secondary-text-color);
+}
+.Faqquestion{
+    font-size: var(--heading-h3-font-size);
+    color: var(--darkshadesofprimarycolor);
 }
 
 .Faqquestion span{

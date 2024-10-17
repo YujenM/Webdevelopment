@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Urbanist", serif;
-}
+
 
 :root {
     --primary-color: #ACE2E4;
@@ -24,7 +22,11 @@ body {
     --heading-h4-font-size: 1.125rem;
     --heading-h5-font-size: 1rem;
 }
-
+body {
+    font-family: "Urbanist", serif;
+    background-color: var(--secondary-bg)!important;
+    
+}
 .blogtitle {
     font-size: var(--heading-h2-font-size);
     color: var(--primary-text-color);
