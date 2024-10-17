@@ -138,6 +138,10 @@ body {
     color: var(--secondary-text-color);
     border-radius: 20px;
 }
+.LSbutton a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
 .gols p{
     text-align: center;
     font-size: var(--heading-h4-font-size);
@@ -147,6 +151,8 @@ body {
 @media(max-width:900px){
     .loginmain{
         width: 90vw;
+        height: 90%;
+
     }
     .userlabel{
         font-size: var(--heading-h4-font-size);
