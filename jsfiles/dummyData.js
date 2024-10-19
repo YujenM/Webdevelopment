@@ -99,7 +99,7 @@ export const user=[
 ];
 
 
-export const condition=[
+export const condition = [
     {
         "title": "ADHD",
         "description": "Symptoms of ADHD involve challenges with restlessness, focus, and acting without thinking."
@@ -123,44 +123,125 @@ export const condition=[
     {
         "title": "Obsessive-Compulsive Disorder (OCD)",
         "description": "OCD is characterized by unwanted, recurring thoughts (obsessions) and repetitive behaviors or mental acts (compulsions) that a person feels compelled to perform."
-    }
-]
+    },
+    {
+        "title": "Bipolar Disorder",
+        "description": "Bipolar disorder is characterized by extreme mood swings, including emotional highs (mania or hypomania) and lows (depression)."
+    },
+    {
+        "title": "Post-Traumatic Stress Disorder (PTSD)",
+        "description": "PTSD may develop after exposure to a traumatic event, causing flashbacks, severe anxiety, and uncontrollable thoughts about the event."
+    },
+    {
+        "title": "Social Anxiety Disorder",
+        "description": "Social anxiety disorder is characterized by intense fear or anxiety of being judged, negatively evaluated, or rejected in social situations."
+    },
+    {
+        "title": "Schizophrenia",
+        "description": "Schizophrenia affects a person's ability to think clearly, manage emotions, make decisions, and relate to others, often involving hallucinations and delusions."
+    },
+    {
+        "title": "Eating Disorders",
+        "description": "Eating disorders, such as anorexia and bulimia, involve preoccupation with food, body weight, and shape, leading to unhealthy behaviors."
+    },
+    {
+        "title": "Borderline Personality Disorder (BPD)",
+        "description": "BPD is characterized by intense mood swings, impulsive behaviors, and severe problems with self-image and relationships."
+    },
+    {
+        "title": "Substance Use Disorder",
+        "description": "Substance use disorder is the recurrent use of alcohol or drugs that causes significant impairment in health, daily functioning, and responsibilities."
+    },
+    {
+        "title": "Sleep Disorders",
+        "description": "Sleep disorders involve problems with sleeping, including insomnia, sleep apnea, and restless leg syndrome, often affecting mental health."
+    },
+    {
+        "title": "Phobias",
+        "description": "Phobias are excessive, irrational fears of specific objects or situations, such as heights, spiders, or flying, causing avoidance behavior."
+    },
+    {
+        "title": "Dissociative Identity Disorder (DID)",
+        "description": "DID, formerly known as multiple personality disorder, involves the presence of two or more distinct personality states that control a person's behavior."
+    },
+    
+];
+
 
 export const blog=[
     {
-        "image":"./images/blog.png",
+        "image":"https://boyo.l8t.top/wp-content/uploads/2024/01/mental_blogs.jpg",
         "title": "The Benefits of Online Therapy",
         "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
     },
     {
-        "image":"./images/blog.png",
-        "title": "The Benefits of Online Therapy",
-        "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
+        "image":"https://images.squarespace-cdn.com/content/v1/597200cfbf629a9ddfd1c386/1512837994579-E78XY4C29XOUSXHQESDO/5BestBlogs-pinterest.png",
+        "title": "How Therapy Helps with Anxiety",
+        "description": "Discover how therapy can be an effective tool in managing anxiety and achieving a balanced state of mental well-being."
     },
     {
-        "image":"./images/blog.png",
-        "title": "The Benefits of Online Therapy",
-        "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1er84mZr0tpkwoNyj4Y-DaKl9iJJniXs58A&s",
+        "title": "Coping with Stress Through Therapy",
+        "description": "Explore the methods therapy provides to cope with stress and regain control of your mental health."
     },
     {
-        "image":"./images/blog.png",
-        "title": "The Benefits of Online Therapy",
-        "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR3Oqf3K4SgZOF_kA_LNGUzqRLp-0ZL1Qjw&s",
+        "title": "How to Build Healthy Habits with Therapy",
+        "description": "Learn how therapy can guide you in building healthy habits and creating lasting change."
     },
     {
-        "image":"./images/blog.png",
-        "title": "The Benefits of Online Therapy",
-        "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
+        "image":"https://boyo.l8t.top/wp-content/uploads/2024/01/mental_blogs.jpg",
+        "title": "Managing Depression with Professional Help",
+        "description": "Find out how professional therapy can assist in managing depression and improving your quality of life."
     },
     {
-        "image":"./images/blog.png",
-        "title": "The Benefits of Online Therapy",
-        "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
+        "image":"https://images.squarespace-cdn.com/content/v1/597200cfbf629a9ddfd1c386/1512837994579-E78XY4C29XOUSXHQESDO/5BestBlogs-pinterest.png",
+        "title": "Therapy for Relationship Issues",
+        "description": "Learn how therapy can address relationship challenges and help you foster better communication and understanding."
     },
     {
-        "image":"./images/blog.png",
-        "title": "The Benefits of Online Therapy",
-        "description": "Online therapy offers a convenient and accessible way to receive mental health support. Learn more about the benefits of online therapy and how it can help you."
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1er84mZr0tpkwoNyj4Y-DaKl9iJJniXs58A&s",
+        "title": "Overcoming Trauma Through Therapy",
+        "description": "Explore how therapy can support recovery from trauma and promote healing and resilience."
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR3Oqf3K4SgZOF_kA_LNGUzqRLp-0ZL1Qjw&s",
+        "title": "Therapy for Self-Esteem Issues",
+        "description": "Find out how therapy can help you boost self-esteem and develop a positive self-image."
+    },
+    {
+        "image":"https://boyo.l8t.top/wp-content/uploads/2024/01/mental_blogs.jpg",
+        "title": "How Therapy Supports Work-Life Balance",
+        "description": "Learn how therapy can help in achieving a healthy work-life balance and reducing burnout."
+    },
+    {
+        "image":"https://images.squarespace-cdn.com/content/v1/597200cfbf629a9ddfd1c386/1512837994579-E78XY4C29XOUSXHQESDO/5BestBlogs-pinterest.png",
+        "title": "Therapy for Grief and Loss",
+        "description": "Explore how therapy can provide support during times of grief and help you navigate the healing process."
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1er84mZr0tpkwoNyj4Y-DaKl9iJJniXs58A&s",
+        "title": "Managing Anger Through Therapy",
+        "description": "Discover how therapy can teach you effective techniques to manage anger and express emotions in a healthy way."
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR3Oqf3K4SgZOF_kA_LNGUzqRLp-0ZL1Qjw&s",
+        "title": "Understanding Cognitive Behavioral Therapy",
+        "description": "Learn about the basics of cognitive behavioral therapy (CBT) and how it can be used to treat various mental health issues."
+    },
+    {
+        "image":"https://boyo.l8t.top/wp-content/uploads/2024/01/mental_blogs.jpg",
+        "title": "The Role of Therapy in Addiction Recovery",
+        "description": "Find out how therapy plays a crucial role in the recovery process for individuals struggling with addiction."
+    },
+    {
+        "image":"https://images.squarespace-cdn.com/content/v1/597200cfbf629a9ddfd1c386/1512837994579-E78XY4C29XOUSXHQESDO/5BestBlogs-pinterest.png",
+        "title": "Therapy for ADHD Management",
+        "description": "Explore how therapy can help individuals with ADHD develop coping strategies and manage symptoms effectively."
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1er84mZr0tpkwoNyj4Y-DaKl9iJJniXs58A&s",
+        "title": "Therapy for Childhood Trauma",
+        "description": "Learn how therapy can help heal from childhood trauma and create a path toward emotional well-being."
     }
-
 ]

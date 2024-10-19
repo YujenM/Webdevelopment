@@ -29,6 +29,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-image: url(../images/loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .loginhead {
@@ -150,10 +154,9 @@ body {
 }
 @media(max-width:900px){
     .loginmain{
-        width: 90vw;
-        height: 90%;
-
+        width: 95%;
     }
+    
     .userlabel{
         font-size: var(--heading-h4-font-size);
     }
@@ -176,5 +179,13 @@ body {
     .userinput{
         width: 90%;
     }
+}
 
+@media (max-width:400px){
+    .loginmain{
+        width: 100%;
+        height: 90%;
+        padding-bottom: 1%;
+    }
+        
 }

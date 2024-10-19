@@ -12,17 +12,46 @@ const introForm = document.getElementById('intro-form');
     const questions = [
         {
             question: "Feeling down, depressed, or hopeless?",
-            answers: ["Nearly every day", "More than half of days", "Several days", "Not at all"]
+            answers: ["Nearly every day", "More than half of the days", "Several days", "Not at all"]
         },
         {
             question: "Trouble falling or staying asleep, or sleeping too much?",
-            answers: ["Nearly every day", "More than half of days", "Several days", "Not at all"]
+            answers: ["Every night", "A few times a week", "Rarely", "Never"]
         },
         {
             question: "Feeling tired or having little energy?",
-            answers: ["Nearly every day", "More than half of days", "Several days", "Not at all"]
+            answers: ["Constantly", "Most of the time", "Occasionally", "Never"]
+        },
+        {
+            question: "Poor appetite or overeating?",
+            answers: ["All the time", "Often", "Sometimes", "Never"]
+        },
+        {
+            question: "Feeling bad about yourself — or that you are a failure or have let yourself or your family down?",
+            answers: ["Always", "Frequently", "Sometimes", "Never"]
+        },
+        {
+            question: "Trouble concentrating on things, such as reading or watching television?",
+            answers: ["Very often", "Often", "Sometimes", "Never"]
+        },
+        {
+            question: "Moving or speaking so slowly that other people could have noticed, or the opposite — being so fidgety or restless that you move around a lot more than usual?",
+            answers: ["Almost every day", "Several days", "Occasionally", "Not at all"]
+        },
+        {
+            question: "Thoughts that you would be better off dead, or of hurting yourself in some way?",
+            answers: ["Frequently", "Sometimes", "Rarely", "Never"]
+        },
+        {
+            question: "Feeling nervous, anxious, or on edge?",
+            answers: ["All the time", "Most of the time", "Occasionally", "Not at all"]
+        },
+        {
+            question: "Not being able to stop or control worrying?",
+            answers: ["Always", "Often", "Sometimes", "Never"]
         }
     ];
+    
 
     let currentQuestion = 0;
 
