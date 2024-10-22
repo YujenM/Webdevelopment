@@ -68,11 +68,6 @@ export const user=[
         "description":"We have no enemies in the world, only teachers. We are all here to teach each other something."
     },
     {
-        "name":"Yujen Maharjan",
-        "description":"I am Batman."
-    },
-
-    {
         "name": "Anonymous",
         "description": "I struggled with anxiety, but now I’m learning to manage it daily."
     },
